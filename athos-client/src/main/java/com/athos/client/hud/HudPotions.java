@@ -22,7 +22,7 @@ public class HudPotions extends HudElement {
 
         int yy = 0;
         for (StatusEffectInstance e : c.player.getStatusEffects()) {
-            Text name = e.getEffectType().getName();
+            Text name = e.getEffectType().value().getName();
             int secs = e.getDuration() / 20;
             String t = name.getString() + " (" + secs + "s)";
             ctx.drawText(c.textRenderer, t, 0, yy, 0xFFFFFF, true);
