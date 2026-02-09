@@ -1,6 +1,11 @@
 package com.athos.client.ui;
 
-import com.athos.client.modules.*;
+import com.athos.client.modules.BoolSetting;
+import com.athos.client.modules.Category;
+import com.athos.client.modules.FloatSetting;
+import com.athos.client.modules.Module;
+import com.athos.client.modules.ModuleRegistry;
+import com.athos.client.modules.Setting;
 import com.athos.client.ui.widgets.SliderRow;
 import com.athos.client.ui.widgets.ToggleRow;
 import net.minecraft.client.MinecraftClient;
