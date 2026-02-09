@@ -1,0 +1,28 @@
+name: Build Athos Client (1.21.5)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Build
+        working-directory: athos-client
+        run: |
+          chmod +x gradlew
+          ./gradlew build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: athos-client-jar
+          path: athos-client/build/libs/*.jar
