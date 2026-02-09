@@ -25,7 +25,7 @@ public class HudEditorScreen extends Screen {
 
     @Override
     public void render(DrawContext ctx, int mouseX, int mouseY, float delta) {
-        renderBackground(ctx);
+        renderBackground(ctx, mouseX, mouseY, delta);
 
         int cx = this.width / 2;
         int cy = this.height / 2;
