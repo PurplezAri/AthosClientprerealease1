@@ -16,6 +16,7 @@ jobs:
           distribution: temurin
           java-version: "17"
 
+      # Install Gradle directly (NO wrapper needed)
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: "8.12"
