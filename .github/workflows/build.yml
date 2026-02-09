@@ -23,7 +23,7 @@ jobs:
 
       - name: Build
         working-directory: athos-client
-        run: gradle build
+        run: gradle --no-daemon --info build
 
       - uses: actions/upload-artifact@v4
         with:
