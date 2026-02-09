@@ -92,7 +92,7 @@ public class AthosMenuScreen extends Screen {
 
     @Override
     public void render(DrawContext ctx, int mouseX, int mouseY, float delta) {
-        renderBackground(ctx);
+        renderBackground(ctx, mouseX, mouseY, delta);
 
         ctx.drawText(textRenderer, "Athos Client", 18, 46, 0xFFFFFF, true);
         ctx.drawText(textRenderer, "Search: " + search, 18, 60, 0xAAAAAA, false);
