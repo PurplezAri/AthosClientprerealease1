@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "id": "athosclient",
   "version": "${version}",
-  "name": "Athos Client",
-  "description": "Feather/Lunar-styled HUD + QoL client mod (no cheats).",
-  "authors": ["You"],
+  "name": "Athos Client Alpha2",
+  "description": "Athos Client HUD + QoL client mod (Fair Play Edition).",
+  "authors": ["PurplezAri"],
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
