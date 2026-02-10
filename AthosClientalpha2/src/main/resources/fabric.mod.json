@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Athos Client Alpha2",
   "description": "Athos Client HUD + QoL client mod (Fair Play Edition).",
-  "authors": ["PurplezAri"],
+  "authors": ["PurplezAri & Kraney"],
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
